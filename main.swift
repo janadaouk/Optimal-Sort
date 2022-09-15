@@ -1,8 +1,8 @@
 import Foundation
 
   
-var unsorted = ("")
-let input: String
+var unsorted = [String]()
+var input: String
 print("Input words here:")
 
 
@@ -22,7 +22,7 @@ func compareString(stringOne: String, stringTwo: String) -> Bool {
     let firstString  = stringOne.lowercased().filter("abcdefghijklmnopqrstuvwxyz".contains)
     let secondString = stringTwo.lowercased().filter("abcdefghijklmnopqrstuvwxyz".contains)
     if firstString > secondString {
-return true
+        return true
     }
     return false
 }
@@ -31,32 +31,42 @@ return true
 func sort(array:[String]) {
     var unsorted = array
     var swapcountperpass = 0
-
+    
     repeat {
     
         swapcountperpass = 0
         for index in 0 ..< unsorted.count - 1  {
             let element = unsorted[index]
             let nextelement = unsorted[index + 1]
-                
+            
             if compareString(stringOne: element, stringTwo: nextelement) == true {
                 swap(words: &unsorted, firstIndex: index, secondIndex: index+1)
-//                print("SORTED: \(unsorted)")
+                //                print("SORTED: \(unsorted)")
                 swapcountperpass += 1
             }
         }
     } while swapcountperpass != 0
-    print("sorted: \(unsorted)")
+    let sortedText = unsorted.joined(separator: "\n")
+
+    print(sortedText)
+    
 }
+// keeps appending the inserted strings to the unsortedstring until you enter an empty one
+repeat {
+    input = readLine()!    
+    unsorted.append(input)
+    //unsorted = input
+} while input != ""
 
+// removes the empty last one which then triggers the sorting function
+unsorted.removeLast()
+//print(unsorted)
+// var sortText = unsorted.components(separatedBy: "\n")
+sort(array: unsorted)
 
-    if let input = readLine() {    
-    unsorted = input
-    var sortText = unsorted.components(separatedBy: ", ")
-            sort(array: sortText)
-          
- //   let sortedText = sortText.joined(separator: ", ")
-   // print(sortedText)
+//    let sortedText = unsorted.joined(separator: "\n ")
+//print(sortedText)
 
-    }
+    
+    
     
