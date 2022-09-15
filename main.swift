@@ -21,23 +21,27 @@ func compareString(stringOne: String, stringTwo: String) -> Bool {
 
     let firstString  = stringOne.lowercased().filter("abcdefghijklmnopqrstuvwxyz".contains)
     let secondString = stringTwo.lowercased().filter("abcdefghijklmnopqrstuvwxyz".contains)
-    return firstString > secondString 
+    if firstString > secondString {
+return true
+    }
+    return false
 }
-    
+
 // actually sorts the string using bubble sort method
 func sort(array:[String]) {
     var unsorted = array
     var swapcountperpass = 0
 
     repeat {
+    
         swapcountperpass = 0
-        for index in 0 ..< array.count - 1  {
-            let element = array[index]
-            let nextelement = array[index + 1]
+        for index in 0 ..< unsorted.count - 1  {
+            let element = unsorted[index]
+            let nextelement = unsorted[index + 1]
                 
-            if compareString(stringOne: element, stringTwo: nextelement) {
+            if compareString(stringOne: element, stringTwo: nextelement) == true {
                 swap(words: &unsorted, firstIndex: index, secondIndex: index+1)
-                print(unsorted)
+//                print("SORTED: \(unsorted)")
                 swapcountperpass += 1
             }
         }
@@ -49,16 +53,10 @@ func sort(array:[String]) {
     if let input = readLine() {    
     unsorted = input
     var sortText = unsorted.components(separatedBy: ", ")
-   print("sort text: \( sortText)")
-//    func onKeyDown(key: String) {
-  //      if key == "a" {
-    //        print("HIIIIIIIII")
             sort(array: sortText)
-      //  }
-      //}
           
-    let sortedText = sortText.joined(separator: ", ")
-//    print(sortedText)
+ //   let sortedText = sortText.joined(separator: ", ")
+   // print(sortedText)
 
     }
     
