@@ -14,6 +14,9 @@
     <nav>
     <ul>
       <li>
+	<p id="name" > Jana Daouk </p>
+	</li>
+      <li>
 	<a href="../../index.html">Home</a>
       </li>
       <li>
@@ -28,32 +31,43 @@
       <li class="dropDown">
 	<a href="../../index.html"> Essays </a>
 	<div class="dropDownContent" >
-	  <a href="fingerPrints.html"> fingerPrints </a>
-	  <a href="AI Sentience.html"> AI Sentience </a>
+	  <a href="../Essays/fingerPrints.html"> fingerPrints </a>
+	  <a href="../Essays/AI Sentience.html"> AI Sentience </a>
 	</div>
       </li>
       <li class="dropDown">
 	<a href="../../index.html"> Projects </a>
 	<div class="dropDownContent">
-	  <a href="Optimal\ Sort.html"> Optimal Sort </a>
+	  <a href="optimalsort.html"> Optimal Sort </a>
 	</li>
       <li>
 	<p id="title"> Digital Portfolio </p>
-	<p id="name"> Jana Daouk</p>
 	</li>
 </ul>
   </nav>
   </header>
+<div class="margin-top" >
   <ul>
     <li>
-  <b> Goal:</b> Create an algorithm that sorts words alphabetically quickly and efficiently 
+<p>  <b> Goal:</b> Create an algorithm that sorts words alphabetically quickly and efficiently 
+</p>
     </li>
+<p>
     <li> Group Members: Jana Daouk, Zaenb Al Ameri, Ibrahim Deir </li>
+</p>
+<p>
     <li> Flowchart:
+</p>
       <img src="" alt="flowchart" >
     </li>
-    <li> Click on the link to check out the super cool code:
+</p>
+<p>    <li> Click on the link to check out the super cool code:
+</p>
       <a href="https://github.com/janadaouk/Optimal-Sort"> CODE </a>
-      </li>
-  </body>
+</li>
+
+<li> <p>  <a href="https://docs.google.com/spreadsheets/d/1Aos6y-B_5e3UM5kvWZoCeY5vmwVDZ5kXZwO51I9QoEI/edit#gid=0" > SPREADSHEET </a> </li> </p>
+</ul>
+</div>
+</body>
 </html>  
