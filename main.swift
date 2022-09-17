@@ -41,7 +41,6 @@ func sort(array:[String]) {
             
             if compareString(stringOne: element, stringTwo: nextelement) == true {
                 swap(words: &unsorted, firstIndex: index, secondIndex: index+1)
-                print("SORTED: \(unsorted)")
                 swapcountperpass += 1
             }
         }
@@ -56,7 +55,6 @@ func sort(array:[String]) {
 repeat {
     input = readLine()!    
     unsorted.append(input)
-    //unsorted = input
 } while input != ""
 
 // removes the empty last one which then triggers the sorting function
