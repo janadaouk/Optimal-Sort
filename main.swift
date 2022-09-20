@@ -60,8 +60,6 @@ repeat {
 
 // removes the empty last one which then triggers the sorting function
 unsorted.removeLast()
-print(unsorted)
-// var sortText = unsorted.components(separatedBy: "\n")
 sort(array: unsorted)
 
 //    let sortedText = unsorted.joined(separator: "\n ")
