@@ -51,19 +51,14 @@ func sort(array:[String]) {
     
 }
 // keeps appending the inserted strings to the unsortedstring until you enter an empty one
-//hi
 repeat {
     input = readLine()!    
     unsorted.append(input)
-    //unsorted = input
 } while input != ""
 
 // removes the empty last one which then triggers the sorting function
 unsorted.removeLast()
 sort(array: unsorted)
-
-//    let sortedText = unsorted.joined(separator: "\n ")
-//print(sortedText)
 
     
     
