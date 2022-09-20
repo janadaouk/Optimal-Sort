@@ -50,7 +50,6 @@ func sort(array:[String]) {
     print(sortedText)
 }
 // keeps appending the inserted strings to the unsortedstring until you enter an empty one
-//hi
 repeat {
     input = readLine()!    
     unsorted.append(input)
