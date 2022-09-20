@@ -41,7 +41,7 @@ func sort(array:[String]) {
             
             if compareString(stringOne: element, stringTwo: nextelement) == true {
                 swap(words: &unsorted, firstIndex: index, secondIndex: index+1)
-                //                print("SORTED: \(unsorted)")
+                //print("unsorted:\(unsorted)")
                 swapcountperpass += 1
             }
         }
@@ -65,7 +65,6 @@ unsorted.removeLast()
 sort(array: unsorted)
 
 //    let sortedText = unsorted.joined(separator: "\n ")
-//print(sortedText)
 
     
     
