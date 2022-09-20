@@ -2,7 +2,7 @@ import Foundation
 
   
 var unsorted = [String]()
-var input: String
+var input: String!
 print("Input words here:")
 
 
@@ -48,7 +48,6 @@ func sort(array:[String]) {
     let sortedText = unsorted.joined(separator: "\n")
 
     print(sortedText)
-    
 }
 // keeps appending the inserted strings to the unsortedstring until you enter an empty one
 //hi
