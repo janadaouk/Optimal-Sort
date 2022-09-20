@@ -47,7 +47,7 @@ func sort(array:[String]) {
     } while swapcountperpass != 0
     let sortedText = unsorted.joined(separator: "\n")
 
-    print(sortedText)
+//    print(sortedText)
     
 }
 // keeps appending the inserted strings to the unsortedstring until you enter an empty one
