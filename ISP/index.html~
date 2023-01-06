@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+ 
+  <head>
+<title>Jana</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../../style.css" >
+    <script src="script.js"> </script>
+  </head>
+<body>
+  <header>
+  
+    <nav>
+    <ul>
+      <li>
+	<p id="name" > Jana Daouk </p>
+	</li>
+      <li>
+	<a href="../../../index.html">Home</a>
+      </li>
+      <li>
+	<a href="../../../importance.html"> Importance</a>
+      </li>
+      <li class="dropDown">
+	<a href="index.html"> CS-I </a>
+	<div class="dropDownContent" >
+	  <a href="../../../ISP.html"> ISP </a>
+	  </div>
+      </li>
+      <li>
+	<a href="../../../courses.html"> Courses </a>
+      </li>
+      <li class="dropDown">
+	<a href="../../../index.html"> Essays </a>
+	<div class="dropDownContent" >
+	  <a href="../../Essays/fingerPrints.html"> fingerPrints </a>
+	  <a href="../../Essays/AI%20Sentience.html"> AI Sentience </a>
+	  <a href="../../Essays/Decision%20Making.html"> Decision Making </a>   
+	</div>
+      </li>
+      <li class="dropDown">
+	<a href="../../index.html"> Projects </a>
+	<div class="dropDownContent">
+	  <a href="../Optimal%20Sort.html"> Optimal Sort </a>
+	  <a href="../Business%20Plan/index.html"> Proposal </a>
+	  <a href="../ISP/index.html" > CS-II ISP </a>
+	</div>
+      </li>
+      <li>
+	<p id="title"> Digital Portfolio </p>
+	</li>
+</ul>
+  </nav>
+  </header>
+<div class="margin-top" >
+<h1> ISP </h1>
+<h3 id="ISPyear" > 2022-2023 </h3>
+</div>
+<div class="businessProposal" >
+  <h4> Code Translator </h4>
+  <h5 class="translator" > A little bit about this project: </h5>
+  <p> Because of the many different coding languages, having a program that is able to translate the code from one language to another would be a great way to save time and increase efficiency. Our program will be designed to accept input in one coding language and provide the same functionality in another language. (most notably issues of syntax and other language specific errors). For weekly updates, click <a href="Journal.html" > HERE </a> </p>
+  <h6 class="translator"> Group Members: </h5>
+  <ul class="translatorList" >
+   <li> <a href=" https://www.codermerlin.com/users/evan-ye/Digital%20Portfolio/CS-II/Projects/ISP/index.html" > Evan </a> </li>
+   <li> <a href=" https://www.codermerlin.com/users/karthik-peravali/Digital%20Portfolio/CS-II/Projects/ISP/index.html" > Karthik </a> </li>
+   <li> <a href=" https://www.codermerlin.com/users/neeraj-gogate/Digital%20Portfolio/CS-II/Projects/ISP/index.html" > Neeraj </a> </li>
+   <li> <a href=" https://www.codermerlin.com/users/vivek-miranganti/Digital%20Portfolio/CS-II/Projects/ISP/index.html" > Vivek </a> </li>
+   <li> <a href=" https://www.codermerlin.com/users/zaenb-al-ameri/Digital%20Portfolio/CS-II/Projects/ISP/index.html" > Zaenb </a>   </li> 
+</ul>
+</div>
+
+</body>
+</html>  

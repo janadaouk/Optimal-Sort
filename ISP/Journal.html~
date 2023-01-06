@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+ 
+  <head>
+<title>Jana</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../../../style.css" >
+    <script src="script.js"> </script>
+  </head>
+<body>
+  <header>
+  
+    <nav>
+    <ul>
+      <li>
+	<p id="name" > Jana Daouk </p>
+	</li>
+      <li>
+	<a href="../../../index.html">Home</a>
+      </li>
+      <li>
+	<a href="../../../importance.html"> Importance</a>
+      </li>
+      <li class="dropDown">
+	<a href="index.html"> CS-I </a>
+	<div class="dropDownContent" >
+	  <a href="../../../ISP.html"> ISP </a>
+	  </div>
+      </li>
+      <li>
+	<a href="../../../courses.html"> Courses </a>
+      </li>
+      <li class="dropDown">
+	<a href="../../../index.html"> Essays </a>
+	<div class="dropDownContent" >
+	  <a href="../../Essays/fingerPrints.html"> fingerPrints </a>
+	  <a href="../../Essays/AI%20Sentience.html"> AI Sentience </a>
+	  <a href="../../Essays/Decision%20Making.html"> Decision Making </a>   
+	</div>
+      </li>
+      <li class="dropDown">
+	<a href="../../index.html"> Projects </a>
+	<div class="dropDownContent">
+	  <a href="../Optimal%20Sort.html"> Optimal Sort </a>
+	  <a href="../Business%20Plan/index.html"> Proposal </a>
+	  <a href="../ISP/index.html" > CS-II ISP </a>
+	</div>
+      </li>
+      <li>
+	<p id="title"> Digital Portfolio </p>
+	</li>
+</ul>
+  </nav>
+  </header>
+<div class="margin-top" >
+</div>
+<div class="businessProposal" >
+  <h4 class="translator" > 2-Jan-2023 </h4>
+  
+  <ul>
+    <li> Software engineer: <p>  As a software engineer, one would have to have knowledge of computer science principles and practices to be able to develop programs, games, run control systems, debug, build software… In this role, I think I would grow a lot, as although I have some knowledge, I still have a lot to learn. I would be a good fit here, but I would have to work a lot and research to be able to complete this role to the level to which it should be completed.
+    </p> </li>
+    <li>  QA engineer: <p>  A Quality Assurance engineer is responsible to ensure the absence of issues and bugs in a program. They collaborate with developers to fix those bugs to ensure the product launches with minimal issues. I think I would perform averagely in this role as it doesn’t seem to be difficult. To fulfill this role, one would have to be detail-oriented and attentive to the order in which the algorithm is executing to be able to determine where the error is. I think with the collaboration of the software engineer, I would be able to do a decent job here in identifying the bugs in the program and fixing them.
+    </p>  </li>
+    <li> Project Manager: <p> A project manager would be responsible to make sure all aspects of the product are being executed according to a set plan with deadlines and completed according to those standards. I think I would be a good project manager as I am a consistent person who is able to follow up with many different aspects of a project. Although, I do think that this role in general tends to need a very diplomatic person, as many interpersonal issues may occur. Luckily, I do consider myself diplomatic, yet firm at the same time, but these skills do need polishing. </p>
+    </li>
+    <li>  Product Manager: <p> A product manager is responsible to identify the customer’s needs and the goals or ambitions that the product must fulfill. This role requires the person to recognize what success looks like for the specific product. I think I would do an average job in this role because our product is a very useful one and if executed correctly, will be a huge success. The product already has a huge demand, so I think I would do a good job handling the rest of the duties of this role. </p>
+    </li>
+    <li> Release Engineer: <p> They work to make sure softwares are built and released with no issues. They also create code that links different applications together. Working closely with QA engineers, a release engineer makes sure these products meet certain standards before being released to be used publicly. I have absolutely no experience completing this job as I have never done this before, but am willing to learn. I think this would be a good opportunity for me to grow or simply to shadow one doing the job. /<p>
+    </li> 
+</ul>
+</div>
+
+</body>
+</html>  
